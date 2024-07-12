@@ -69,7 +69,7 @@ export default function Registro() {
                 </View>
                 <View style={styles.column}>
                     <InputText
-                        placeHolder={"Ingresa tu correo electrónico"}
+                        placeHolder={"correo electrónico"}
                         valor={correo}
                         setTextChange={setCorreo} />
                     <InputText

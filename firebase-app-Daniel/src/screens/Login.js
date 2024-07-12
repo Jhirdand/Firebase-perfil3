@@ -66,11 +66,11 @@ export default function Login() {
             <Text style={styles.title}>Iniciar Sesión</Text>
 
             <InputText
-                placeHolder={"Ingresa tu correo electrónico"}
+                placeHolder={"correo electrónico"}
                 valor={correo}
                 setTextChange={setCorreo} />
             <InputText
-                placeHolder={"Ingresa tu clave"}
+                placeHolder={"Contraseña"}
                 contra={true}
                 valor={clave}
                 setTextChange={setClave} />
